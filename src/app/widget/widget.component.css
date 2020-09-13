@@ -1,0 +1,14 @@
+div{
+    position: absolute;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.active{
+    border : 1px solid blue;
+    background-color: aqua !important;
+}

@@ -1,0 +1,17 @@
+.mainBox{
+
+    width: 500px;
+    height: 500px;
+    border:2px solid red;
+    margin-left: 10px;
+
+}
+
+.active{
+    border : 2px solid blue;
+}
+
+button{
+    margin-left: 50px;
+    margin-right: 50px;
+}

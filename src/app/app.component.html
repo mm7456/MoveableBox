@@ -1,0 +1,23 @@
+<div>
+  <button (click)="addWidget()">Add widget</button>
+ 
+  <input type="checkbox" checked data-toggle="toggle" (change)="toggleControl($event)"> Toggle Control
+  
+</div>
+
+<div class="mainBox">
+
+  <div>
+    <app-widget 
+    *ngFor="let id of widgetIds;let i = index" 
+    [id]=id 
+    (click)="onClickWidget(id)" 
+    (keydown)="getKeyAndMove($event)"
+    [isSelected]="id === selectedWidgetId">
+
+    </app-widget>
+
+
+  </div>
+
+</div>
